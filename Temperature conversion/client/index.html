@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="main_container">
+        <form action="" class="form_container">
+            <h1 class="main_text">Temperature Conversion</h1>
+            <div class="input_container">
+                <input type="number" placeholder="Enter The Value" id="displayinput">
+            </div>
+            <div class="check_box">
+                <div class="checkbox1">
+                <input type="radio" name="checkbox" id="checkbox1" >
+                <label for="checkbox">Celsius To Fahrenheit</label>
+                </div>
+                <div class="checkbox2">
+                <input type="radio" name="checkbox" id="checkbox2">
+                <label for="checkbox">Fahrenheit To Celsius</label>
+                </div>
+            </div>
+            <div class="result_reset_container">
+                <input type="button" value="Result" id="resultbtn" onclick="output()">
+                <input type="reset" value="Clear" id="clearbtn">
+            </div>
+                <input type="text" id="final_output" placeholder="0" readonly>
+        </form>
+    </div>
+    <script src="../server/script.js">
+
+    </script>
+</body>
+</html>
